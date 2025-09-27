@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Medmart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- ---Navbar section--- -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom py-3">
+      <div class="container">
+        <!-- Left Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="./images/nav-logo.svg" alt="Logo" height="40" />
+        </a>
+
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Collections
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Medications</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Stethoscopes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Thermometers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Medical Supplies</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Right Side Icons -->
+         <div class="d-flex align-items-center gap-4">
+            <a href="#" class="text-dark"><i class="bi bi-search"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-person fs-5"></i></a>
+            <a href="#" class="text-dark"><i class="bi bi-bag fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ---Main-wrapper--- -->
+
+    <div class="main-wrapper">
+      <!-- ---Hero section--- -->
+      <section class="hero-section h-100 py-5 position-relative">
+        <div class="container position-relative">
+          <img src="./images/Vaccine.svg" class="vaccine-img" alt="" />
+          <div class="inner-row">
+            <div
+              class="content-col d-flex flex-column align-items-center text-center"
+            >
+              <p>SINCE 2014</p>
+              <div class="hero-main-img position-relative">
+                <img
+                  class="capsule-img position-absolute w-25"
+                  src="./images/Medicine.png"
+                  alt=""
+                />
+                <img src="./images/hero-text-img.png" alt="" class="w-100" />
+              </div>
+              <div
+                class="primary-btn-box mt-5 d-flex flex-column flex-md-row gap-3"
+              >
+                <button
+                  type="button"
+                  class="btn fs-5 border px-4 py-3"
+                >
+                  SHOP ESSENTIALS
+                </button>
+                <button type="button" class="btn fs-5 border px-4 py-3">
+                  ABOUT MEDMART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./images/Medicine.svg" class="right-img" alt="" />
+        <img src="./images/Component 1.svg" class="component-img" alt="" />
+      </section>
+
+      <!-- ----Feature section---- -->
+      <section class="feature-section">
+        <div class="container-fluid">
+          <div class="feature-row row text-center text-md-start">
+            <!-- Column 1 -->
+            <div
+              class="col-12 col-md-4 mb-md-0 p-5 border-bottom text-white border-end"
+            >
+              <h5 class="mb-3">99% Customer Satisfaction</h5>
+              <p class="mb-0">Rated highly for quality & reliability</p>
+            </div>
+            <!-- Column 2 -->
+            <div
+              class="col-12 col-md-4 mb-md-0 p-5 border-md-start border-bottom text-white"
+            >
+              <h5 class="mb-3">Next-Day Dispatch</h5>
+              <p class="mb-0">Quick, dependable shipping across the UK</p>
+            </div>
+            <!-- Column 3 -->
+            <div class="col-12 col-md-4 p-5 bg-primary border-start text-white">
+              <h5 class="mb-3 text-white">Safe & Certified</h5>
+              <p class="mb-0 text-white">
+                All products meet medical safety standards
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRUSTED SECTION -->
+      <section class="py-4 border-top border-bottom trusted-section">
+        <div class="container">
+          <div class="row align-items-center text-center text-md-start">
+            <!-- Left Column -->
+            <div
+              class="col-12 col-md-8 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start mb-3 mb-md-0 lefimg"
+            >
+              <img src="./images/chat-icon.svg" alt="" />
+              <p class="mb-0 ms-3">
+                Trusted By Thousands Of Health Professionals & Households
+              </p>
+            </div>
+
+            <!-- Right Column -->
+            <div
+              class="col-12 col-md-4 d-flex align-items-center justify-content-center justify-content-md-end gap-4 rightimg"
+            >
+              <!-- Trustpilot -->
+              <div class="d-flex flex-column align-items-center">
+                <img src="./images/trust-pilot.svg" alt="Trustpilot" />
+              </div>
+              <!-- Google -->
+              <div class="d-flex flex-column align-items-center">
+                <img src="./images/google.svg" alt="Google" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Middle Top Section -->
+      <section class="middlesection w-100">
+        <div class="mx-width1370 my-5">
+          <div class="row g-4 w-100">
+            <!-- Left big promo -->
+            <div class="inner-col col-lg-5 col-md-5">
+              <div class="promo-box promo-left position-relative">
+                <div class="promo-left-content">
+                  <h5>Enjoy 50% OFF</h5>
+                  <p>Your First Order</p>
+                  <div class="promo-btn"><a href="#">Shop Now</a></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right side promos -->
+            <div class="inner-col col-lg-7 col-md-7">
+              <div class="row g-4">
+                <!-- Top full width -->
+                <div class="col-12">
+                  <div class="promo-box promo-stethoscope">
+                    <img src="./images/stethoscope-img.png" alt="Stethoscope" />
+                    <h5>Save 30% On</h5>
+                    <p class="fs-3">Digital Electronic Stethoscopes</p>
+                    <a href="#">Visit Store</a>
+                  </div>
+                </div>
+
+                <!-- Bottom two columns -->
+                <div class="inner-col col-md-6">
+                  <div class="promo-box promo-thermometer">
+                    <img src="./images/thermometer-img.png" alt="Thermometer" />
+                    <div class="right-btm-txt">
+                      <p>Get Digital <br/>Thermometers</p>
+                      <a href="#">Visit Store</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="inner-col col-md-6">
+                  <div class="promo-box promo-supplies">
+                    <img
+                      src="./images/medicle-supplies.png"
+                      alt="Medical Supplies"
+                    />
+                    <p class="text-dark">Essential <br>Medical <br>Supplies</p>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---Medical tab section--- -->
+      <section class="medical-tab py-5">
+        <div class="container">
+          <h2 class="text-black fs-1 text-center">
+            Medical & Wellness Products
+          </h2>
+          <p class="text-center">
+            Free Shipping on Orders Over $59 or with Your First Purchase
+          </p>
+          <!-- ---Tab box--- -->
+          <div class="tab-box">
+            <!-- Tabs -->
+            <ul
+              class="nav nav-tabs justify-content-center mb-4"
+              id="productTabs"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="popular-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#popular"
+                  type="button"
+                  role="tab"
+                >
+                  Popular Items
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="toprated-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#toprated"
+                  type="button"
+                  role="tab"
+                >
+                  Top Rated
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="trending-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#trending"
+                  type="button"
+                  role="tab"
+                >
+                  Trending Items
+                </button>
+              </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="productTabsContent">
+              <div
+                class="tab-pane fade show active"
+                id="popular"
+                role="tabpanel"
+              >
+                <div class="row g-4">
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img1.png"
+                        class="card-img-top"
+                        alt="Surgical Hand Gloves"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Surgical Hand Gloves</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img2.png"
+                        class="card-img-top"
+                        alt="Clinical Stethoscope"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Clinical Stethoscope</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center position-relative">
+                      <!-- <span
+                      class="badge bg-primary position-absolute top-0 end-0 m-2"
+                      >20% OFF</span
+                    > -->
+                      <img
+                        src="./images/img3.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img4.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img5.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img6.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">First Medicine Aid Kit</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img7.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Pills Bottle</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3 col-12">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img8.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Surgical Face Mask</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Top Rated -->
+              <div class="tab-pane fade" id="toprated" role="tabpanel">
+                <div class="row g-4">
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img1.png"
+                        class="card-img-top"
+                        alt="Surgical Hand Gloves"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Surgical Hand Gloves</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img2.png"
+                        class="card-img-top"
+                        alt="Clinical Stethoscope"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Clinical Stethoscope</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center position-relative">
+                      <!-- <span
+                      class="badge bg-primary position-absolute top-0 end-0 m-2"
+                      >20% OFF</span
+                    > -->
+                      <img
+                        src="./images/img3.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img4.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img5.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img6.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">First Medicine Aid Kit</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img7.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Pills Bottle</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img8.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Surgical Face Mask</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Trending Items -->
+              <div class="tab-pane fade" id="trending" role="tabpanel">
+                <div class="row g-4">
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img1.png"
+                        class="card-img-top"
+                        alt="Surgical Hand Gloves"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Surgical Hand Gloves</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img2.png"
+                        class="card-img-top"
+                        alt="Clinical Stethoscope"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Clinical Stethoscope</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center position-relative">
+                      <!-- <span
+                      class="badge bg-primary position-absolute top-0 end-0 m-2"
+                      >20% OFF</span
+                    > -->
+                      <img
+                        src="./images/img3.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img4.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img5.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Digital Thermometer</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img6.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">First Medicine Aid Kit</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img7.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Pills Bottle</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card border-0 text-center">
+                      <img
+                        src="./images/img8.png"
+                        class="card-img-top"
+                        alt="Digital Thermometer"
+                      />
+                      <div class="card-body bg-dark text-white">
+                        <h6 class="mb-1">Surgical Face Mask</h6>
+                        <p class="mb-0 text-primary fw-bold">$49.50</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 text-center mt-5">
+            <div class="promo-btn w-15 mx-auto"><a href="#">View MORE</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- faq section -->
+      <section class="faq-section pb-md-5 pb-4">
+        <div class="container">
+          <h2 class="fs-1 text-black text-center">Frequently Ask Questions</h2>
+          <div class="row mt-4">
+            <div class="col-md-6 col-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      What payment methods do you accept?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      We accept major credit and debit cards, PayPal, and secure online banking options to ensure your transactions are safe and convenient.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      How long does delivery take?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Orders placed before 3 PM are dispatched the same day, with most UK deliveries arriving withing 1-2 business days.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Do you offer free shipping?</button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Yes! We provide free shipping on orders over $59 or with your first purchase.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      Are your products certifiied?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      All our medical and wellness products meet the required safety and certification standards, ensuring reliability and quality.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      What is your return poicy?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      We offer a 30-day hasle-free return policy for unused items in their original packaging.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      How can I contact customer support?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSix"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Our support team is available 24/7 via email, phone, or live chat to assist with any questions or concerns.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section -->
+      <section class="py-5 bg-white border-top service-section-btm">
+        <div class="container">
+          <div class="row text-center text-md-start g-4">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-4 d-flex">
+              <div class="me-3 flex-shrink-0">
+                <div
+                  class="rounded-circle border-dotted border-2 border-primary d-flex align-items-center justify-content-center"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="bi bi-truck text-primary fs-4"></i>
+                </div>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">Free Shipping</h6>
+                <p class="mb-0 text-muted">
+                  Free Shipping on Orders Over $59 or with Your First Purchase
+                </p>
+              </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-4 d-flex">
+              <div class="me-3 flex-shrink-0">
+                <div
+                  class="rounded-circle border-dotted border-2 border-primary d-flex align-items-center justify-content-center"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="bi bi-box-seam text-primary fs-4"></i>
+                </div>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">30 Days Return policy</h6>
+                <p class="mb-0 text-muted">
+                  Hassle-free refunds for any issues with the orders
+                </p>
+              </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-12 col-md-4 d-flex">
+              <div class="me-3 flex-shrink-0">
+                <div
+                  class="rounded-circle border-dotted border-2 border-primary d-flex align-items-center justify-content-center"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="bi bi-headset text-primary fs-4"></i>
+                </div>
+              </div>
+              <div>
+                <h6 class="fw-bold mb-1">24/7 Support</h6>
+                <p class="mb-0 text-muted">
+                  Our dedicated team is always here to help
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ----Footer Section--- -->
+
+    <footer class="bg-dark text-light pt-5">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Left Column -->
+          <div class="col-12 col-lg-4 col-md-6">
+            <h5 class="mb-3">
+              <img src="./images/footer-logo.svg" alt="Logo" class="me-2" />
+            </h5>
+            <p class="small">
+              Medmart is an online medical service and medicine eCommerce
+              Template for your ultimate online store and medical service.
+            </p>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <i class="bi bi-geo-alt me-2 fs-4 text-primary"></i>16 Collins
+                Street West Victoria, London
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-envelope me-2 fs-4 text-primary"></i
+                >yourmail@gmail.com
+              </li>
+              <li class="mb-2">
+                <i class="bi bi-telephone me-2 fs-4 text-primary"></i>+88022 533
+                655
+              </li>
+            </ul>
+          </div>
+
+          <!-- Products Column -->
+
+          <div class="product-links col-6 col-lg-2 col-md-6">
+            <h6 class="fw-bold mb-3">Products</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Medicines</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Vitamins & Supplements</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Accessories</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Medical Equipment</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >All Products</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Doctor Equipment</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Offer Sale</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="quick-links col-6 col-lg-2 col-md-6">
+            <h6 class="fw-bold mb-3">Quick Link</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="#" class="text-light text-decoration-none">Support</a>
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none">Refund Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Shipping & Returns</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Terms & Condition</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none"
+                  >Help Center</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Payments Column -->
+          <div class="col-12 col-lg-4 col-md-6">
+            <h6 class="fw-bold mb-3">Payments</h6>
+            <p class="small">Secure Payments</p>
+            <div class="mb-3">
+              <img src="./images/payment-options.svg" alt="payment options" />
+            </div>
+            <div class="d-flex gap-3 social-icons">
+              <a href="#" class="text-light"><i class="bi bi-facebook fs-5"></i></a>
+              <a href="#" class="text-light"
+                ><i class="bi bi-twitter fs-5"></i
+              ></a>
+              <a href="#" class="text-light"
+                ><i class="bi bi-instagram fs-5"></i
+              ></a>
+              <a href="#" class="text-light"
+                ><i class="bi bi-pinterest fs-5"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="bg-primary text-center py-3 mt-4 btm-bar">
+        <p class="mb-0 small">
+          &copy; Copyright 2025 Medmart. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

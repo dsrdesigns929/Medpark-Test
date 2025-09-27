@@ -1,0 +1,89 @@
+  /* Tablet Size */
+  @media screen and (max-width: 1024px) {
+    .hero-section .vaccine-img{width:20%; left:-9%;}
+    .hero-main-img img{max-width: 50%;}
+    .hero-section .component-img{width:40%; left:-11%;}
+    .hero-section img.right-img{width:30%; right:-10%;}
+    .feature-section .p-5{padding:1rem !important;}
+    .feature-section h5{font-size:1rem !important;}
+    .trusted-section .container{max-width:100% !important;}
+    .trusted-section p{font-size: 0.90rem;}
+    .trusted-section .lefimg img{width:37px;}
+    .trusted-section .rightimg img{width:88px;}
+    .middlesection .w-100{margin:0 auto;}
+    .middlesection .row{min-height: inherit;}
+    .promo-stethoscope{overflow:hidden;}
+    .promo-stethoscope h5, .promo-left h5{font-size:1rem;}
+    .promo-stethoscope p{font-size:1.25rem !important; max-width: 75%;}
+    .promo-stethoscope img{width:65%;}
+    .promo-stethoscope a{font-size:0.875rem;}
+    .right-btm-txt p, .promo-supplies p, .promo-left p{font-size:1.25rem !important;}
+    .promo-supplies a{position:relative; z-index: 1;}
+  }
+
+ /* Small Mobile (380px to 480px) */
+  @media screen and (max-width: 767px) {
+            .hero-section .capsule-img {
+                right: -10px !important;
+                top: 35px !important;
+                left: auto !important;
+                width: 20% !important;
+            }
+
+            .hero-section .right-img {
+                position: absolute;
+                bottom: 110px;
+                right: -17% !important;  
+                width: 120px;
+            }
+
+            .hero-section .vaccine-img {
+                position: absolute;
+                top: -20px; 
+                left: -30px;
+                width: 80px;             
+            }
+
+            .hero-section .component-img {
+                position: absolute;
+                bottom: -3%; 
+                left: -17%; 
+                width: 140px; 
+            }
+
+            .hero-section {
+                padding: 25px 0;
+                overflow: hidden; 
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+
+            .hero-main-img {
+                margin-bottom: 1.2rem;
+            }
+
+            .content-col p {
+                font-size: 0.75rem;
+                padding: 5px 12px;
+                margin-bottom: 1.2rem;
+            }
+
+            .btn-primary-custom,
+            .btn-secondary-custom {
+                font-size: 0.9rem !important;
+                padding: 10px 18px !important;
+            }
+
+            .feature-section .p-5{padding:1rem !important; text-align: left;}
+            .middlesection.w-100{padding:0px 16px;}
+            .middlesection .w-100{width: auto !important;}
+            .feature-section h5{margin-bottom: 0 !important;}
+            .promo-box{min-height: 360px; overflow: hidden;}
+            .promo-stethoscope img{width:90%; right: -31%;}
+            .promo-thermometer img{width:90%;}
+            .medical-tab.py-5{padding-top:1rem !important;}
+            .service-section-btm .text-center{text-align: left !important;}
+            .navbar .align-items-center{justify-content: center !important;}
+        }
